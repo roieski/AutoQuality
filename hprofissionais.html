@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profissionais - AutoQualify</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="profistaly.css">
+</head>
+<body>
+
+  <header class="header">
+    <img src="logo.png" alt="AutoQualify Logo">
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </header>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#services">Serviços</a></li>
+    <li><a href="#qualifications">Qualificação</a></li>
+    <li><a href="#partners">Parceiros</a></li>
+    <li><a href="#login">Login</a></li>
+  </ul>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Automação Industrial...">
+  </div>
+
+  <div class="professional-list">
+    <div class="professional-card">
+      <h5>Profissional 1</h5>
+      <p>Formação: Engenharia de Automação</p>
+      <p>Especialização: Robótica</p>
+      <div class="buttons">
+        <a href="#contact1">Contato</a>
+        <a href="#schedule1">Agendar Visita</a>
+        <a href="#moreinfo1">Mais Informações</a>
+      </div>
+    </div>
+    <div class="professional-card">
+      <h5>Profissional 2</h5>
+      <p>Formação: Engenharia Elétrica</p>
+      <p>Especialização: Automação Industrial</p>
+      <div class="buttons">
+        <a href="#contact2">Contato</a>
+        <a href="#schedule2">Agendar Visita</a>
+        <a href="#moreinfo2">Mais Informações</a>
+      </div>
+    </div>
+    <div class="professional-card">
+      <h5>Profissional 3</h5>
+      <p>Formação: Ciência da Computação</p>
+      <p>Especialização: Inteligência Artificial</p>
+      <div class="buttons">
+        <a href="#contact3">Contato</a>
+        <a href="#schedule3">Agendar Visita</a>
+        <a href="#moreinfo3">Mais Informações</a>
+      </div>
+    </div>
+    <div class="professional-card">
+      <h5>Profissional 4</h5>
+      <p>Formação: Engenharia de Software</p>
+      <p>Especialização: Automação de Processos</p>
+      <div class="buttons">
+        <a href="#contact4">Contato</a>
+        <a href="#schedule4">Agendar Visita</a>
+        <a href="#moreinfo4">Mais Informações</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <h5>Sobre Nós</h5>
+          <p>Na AutoQualify, oferecemos a melhor qualificação em automação, com profissionais capacitados e métodos inovadores de ensino.</p>
+        </div>
+        <div class="col s12 m4">
+          <h5>Links Úteis</h5>
+          <ul>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#qualifications">Qualificação</a></li>
+            <li><a href="#partners">Parceiros</a></li>
+            <li><a href="#login">Login</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m4">
+          <h5>Contatos</h5>
+          <p>Email: contato@autoqualify.com.br</p>
+          <p>Telefone: (11) 1234-5678</p>
+          <div class="social-icons">
+            <a href="#facebook"><i class="material-icons">facebook</i></a>
+            <a href="#twitter"><i class="material-icons">twitter</i></a>
+            <a href="#linkedin"><i class="material-icons">linkedin</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 AutoQualify. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(elems);
+      var modalElems = document.querySelectorAll('.modal');
+      M.Modal.init(modalElems);
+    });
+  </script>
+</body>
+</html>

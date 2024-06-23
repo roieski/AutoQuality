@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - AutoQualify</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+
+  <header class="header">
+    <img src="logo.png" alt="AutoQualify Logo">
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </header>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#services">Serviços</a></li>
+    <li><a href="#qualifications">Qualificação</a></li>
+    <li><a href="#partners">Parceiros</a></li>
+    <li><a href="#login">Login</a></li>
+  </ul>
+
+  <div class="container">
+    <h4 class="center">Cadastro de Empresa</h4>
+    <form>
+      <div class="input-field">
+        <input type="text" id="company_name" required>
+        <label for="company_name">Nome da Empresa</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="location" required>
+        <label for="location">Localidade</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="industry" required>
+        <label for="industry">Área de Atuação</label>
+      </div>
+      <div class="input-field">
+        <input type="number" id="years_in_business" required>
+        <label for="years_in_business">Tempo de Mercado (anos)</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="own_brands" required>
+        <label for="own_brands">Marcas Próprias</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="qualification_needs" required>
+        <label for="qualification_needs">Necessidade de Qualificação Profissional</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="address" required>
+        <label for="address">Endereço</label>
+      </div>
+      <div class="input-field">
+        <input type="number" id="number_of_professionals" required>
+        <label for="number_of_professionals">Quantidade de Profissionais a Serem Qualificados</label>
+      </div>
+      <div class="input-field">
+        <select id="plan_type" required>
+          <option value="" disabled selected>Escolha o tipo de plano</option>
+          <option value="basic">Básico</option>
+          <option value="complete">Completo</option>
+          <option value="lifetime">Vitalício</option>
+        </select>
+        <label for="plan_type">Tipo de Plano</label>
+      </div>
+      <div class="center">
+        <button type="submit" class="btn blue darken-3">Assinar</button>
+        <a href="#contact" class="btn grey darken-1">Contato com Atendente</a>
+        <a href="#terms" class="btn grey darken-1">Termos</a>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <h5>Sobre Nós</h5>
+          <p>Na AutoQualify, oferecemos a melhor qualificação em automação, com profissionais capacitados e métodos inovadores de ensino.</p>
+        </div>
+        <div class="col s12 m4">
+          <h5>Links Úteis</h5>
+          <ul>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#qualifications">Qualificação</a></li>
+            <li><a href="#partners">Parceiros</a></li>
+            <li><a href="#login">Login</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m4">
+          <h5>Contatos</h5>
+          <p>Email: contato@autoqualify.com.br</p>
+          <p>Telefone: (11) 1234-5678</p>
+          <div class="social-icons">
+            <a href="#facebook"><i class="material-icons">facebook</i></a>
+            <a href="#twitter"><i class="material-icons">twitter</i></a>
+            <a href="#linkedin"><i class="material-icons">linkedin</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 AutoQualify. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(elems);
+      var selectElems = document.querySelectorAll('select');
+      M.FormSelect.init(selectElems);
+    });
+  </script>
+</body>
+</html>

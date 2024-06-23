@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #f0f0f0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0a23;
+    padding: 10px 20px;
+  }
+  
+  .header img {
+    height: 50px;
+  }
+  
+  .sidenav {
+    width: 250px;
+    background-color: #0a0a23;
+  }
+  
+  .sidenav a {
+    color: white;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .input-field label {
+    color: #333;
+  }
+  
+  .input-field input,
+  .input-field select {
+    color: #333;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .input-field select {
+    display: block;
+    height: 3rem;
+    padding: 0 .5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .center {
+    text-align: center;
+    margin-top: 20px;
+    color: #0a0a23;
+  }
+  
+  .footer {
+    background-color: #0a0a23;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer h5 {
+    margin-bottom: 20px;
+  }
+  
+  .footer p, .footer ul, .footer a {
+    color: white;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .social-icons {
+    margin-top: 10px;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer .social-icons a i {
+    font-size: 24px;
+  }
+  
+  .footer-bottom {
+    background-color: #0a0a23;
+    padding: 10px 0;
+  }
+  

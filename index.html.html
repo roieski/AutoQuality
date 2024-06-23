@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial - AutoQualify</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="nclogni.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="AutoQualify Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#qualifications">Qualificação</a></li>
+        <li><a href="#partners">Parceiros</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Barra de Pesquisa -->
+  <div class="search-bar">
+    <form action="/search" method="GET">
+      <input type="text" placeholder="Pesquisar..." name="search">
+      <button type="submit"><i class="material-icons">search</i></button>
+    </form>
+  </div>
+
+  <!-- Seção Hero -->
+  <section class="hero">
+    <img class="ima" src="logo.png" alt="Imagem Hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Bem-Vindo à AutoQualify</h1>
+      <p>Na AutoQualify, oferecemos a melhor qualificação em automação, com profissionais capacitados e métodos inovadores de ensino. Nossa plataforma online proporciona acesso a uma ampla gama de conteúdos, enquanto nossos tutores oferecem suporte presencial. Garantimos uma qualificação de excelência no menor tempo possível para manter sua equipe à frente no mercado.</p>
+      <p class="founders">Fundadores: Felipe, Lucas, Carlos, Rafael</p>
+    </div>
+  </section>
+
+  <!-- Botões de Navegação -->
+  <div class="buttons">
+    <a href="hprofissionais.html" class="btn">Profissional</a>
+    <a href="hfinanceiro.html" class="btn">Financeiro</a>
+    <a href="parceiros.html" class="btn">Parceiros</a>
+    <a href="hcadastro.html" class="btn">Cadastro</a>
+    <a href="hbiblioteca.html" class="btn">Biblioteca</a>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <h5>Sobre Nós</h5>
+          <p>Na AutoQualify, oferecemos a melhor qualificação em automação, com profissionais capacitados e métodos inovadores de ensino.</p>
+        </div>
+        <div class="col s12 m4">
+          <h5>Links Úteis</h5>
+          <ul>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#qualifications">Qualificação</a></li>
+            <li><a href="#partners">Parceiros</a></li>
+            <li><a href="#login">Login</a></li>
+          </ul>
+        </div>
+        <div class="col s12 m4">
+          <h5>Contatos</h5>
+          <p>Email: contato@autoqualify.com.br</p>
+          <p>Telefone: (11) 1234-5678</p>
+          <div class="social-icons">
+            <a href="#facebook"><i class="material-icons">facebook</i></a>
+            <a href="#twitter"><i class="material-icons">twitter</i></a>
+            <a href="#linkedin"><i class="material-icons">linkedin</i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 AutoQualify. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(elems);
+    });
+  </script>
+</body>
+</html>

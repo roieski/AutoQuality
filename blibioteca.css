@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0a23;
+    padding: 10px 20px;
+  }
+  
+  .header img {
+    height: 50px;
+  }
+  
+  .sidenav {
+    width: 250px;
+    background-color: #0a0a23;
+  }
+  
+  .sidenav a {
+    color: white;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .library-section, .video-section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .library-section {
+    background-color: #d0e1f9; /* Cor de fundo diferente para a seção de bibliotecas */
+  }
+  
+  .video-section {
+    background-color: #f9d0d0; /* Cor de fundo diferente para a seção de vídeos */
+  }
+  
+  .card {
+    background-color: white;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card-content {
+    padding: 15px;
+    flex-grow: 1;
+  }
+  
+  .card-image img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-action {
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  
+  .card-action .btn {
+    background-color: #0a0a23;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #0a0a23;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer h5 {
+    color: #fff;
+  }
+  
+  .footer p {
+    color: #bbb;
+  }
+  
+  .footer a {
+    color: #bbb;
+  }
+  
+  .footer-bottom {
+    background-color: #050514;
+    color: #bbb;
+    padding: 10px 0;
+  }
+  
+  .social-icons a {
+    color: #bbb;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: white;
+  }
+  
+  
